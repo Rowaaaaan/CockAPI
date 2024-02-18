@@ -1,5 +1,5 @@
 import { Schema, model } from "mongoose";
-import ICock from "../interfaces/cockInterface";
+import ICock from "../interfaces/models/ICock";
 
 const cockSchema: Schema = new Schema<ICock>(
 	{

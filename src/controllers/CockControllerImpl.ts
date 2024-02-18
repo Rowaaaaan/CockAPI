@@ -1,8 +1,8 @@
 import { Response, Request } from "express";
 import mongoose, { FlattenMaps, HydratedDocument } from "mongoose";
-import Cock from "../models/cockModel";
-import ICock from "../interfaces/cockInterface";
-import ICockController from "./ICockController";
+import Cock from "../models/Cock";
+import ICock from "../interfaces/models/ICock";
+import ICockController from "../interfaces/controllers/ICockController";
 
 export default class CockControllerImpl implements ICockController {
 

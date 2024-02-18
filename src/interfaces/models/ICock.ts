@@ -1,4 +1,14 @@
-
+/**
+ * Interface for the Cock model
+ *
+ * @field {Array<String>} imageUrl
+ * @field {String} breed
+ * @field {Array<String>} names
+ * @field {Array<String>} scientificName
+ * @field {Number} yearDiscovered
+ * @field {String} countryOfOrigin
+ * @field {{APA: String, EE: String, }}
+ */
 export default interface ICock {
 	/**
 	 * Collection of URLs that point to an image of the cock.
