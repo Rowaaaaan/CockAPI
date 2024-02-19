@@ -4,9 +4,9 @@ import dotenv from "dotenv";
 
 import router from "./routes/router";
 
-dotenv.config();
+dotenv.config({ path: `./.env.${process.env.NODE_ENV}` });
 
-const dbUri: string = process.env.ATLAS_URL || "";
+const dbUri: string = process.env.DB_URL || "";
 const port = process.env.PORT || 3000;
 
 main()
